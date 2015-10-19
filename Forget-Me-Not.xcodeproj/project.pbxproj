@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80440EFD1BB970F500D84BEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80440EFC1BB970F500D84BEE /* AppDelegate.swift */; };
+		80440F021BB970F500D84BEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80440F001BB970F500D84BEE /* Main.storyboard */; };
+		80440F041BB970F500D84BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80440F031BB970F500D84BEE /* Assets.xcassets */; };
+		80440F071BB970F500D84BEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80440F051BB970F500D84BEE /* LaunchScreen.storyboard */; };
+		80440F121BB970F500D84BEE /* Forget_Me_NotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80440F111BB970F500D84BEE /* Forget_Me_NotTests.swift */; };
+		80440F1D1BB970F500D84BEE /* Forget_Me_NotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80440F1C1BB970F500D84BEE /* Forget_Me_NotUITests.swift */; };
+		80440F2B1BB9725600D84BEE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80440F2A1BB9725600D84BEE /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		80440F301BB9E19100D84BEE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80440F2F1BB9E19100D84BEE /* MapKit.framework */; };
+		809348DF1BD19E79000462F6 /* SetInRadiusReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809348DE1BD19E79000462F6 /* SetInRadiusReminderViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		809348E31BD1BE0A000462F6 /* RemindersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809348E21BD1BE0A000462F6 /* RemindersTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		809349281BD48E5D000462F6 /* ReminderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809349261BD48E5D000462F6 /* ReminderTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		809349291BD48E5D000462F6 /* ReminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 809349271BD48E5D000462F6 /* ReminderTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		8093492B1BD49415000462F6 /* FMNReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8093492A1BD49415000462F6 /* FMNReminder.swift */; settings = {ASSET_TAGS = (); }; };
+		8093492F1BD4AA35000462F6 /* NoRemindersView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8093492E1BD4AA35000462F6 /* NoRemindersView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80440F0E1BB970F500D84BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80440EF11BB970F500D84BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80440EF81BB970F500D84BEE;
+			remoteInfo = "Forget-Me-Not";
+		};
+		80440F191BB970F500D84BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80440EF11BB970F500D84BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80440EF81BB970F500D84BEE;
+			remoteInfo = "Forget-Me-Not";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80440EF91BB970F500D84BEE /* Forget-Me-Not.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Forget-Me-Not.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80440EFC1BB970F500D84BEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80440F011BB970F500D84BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80440F031BB970F500D84BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80440F061BB970F500D84BEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80440F081BB970F500D84BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80440F0D1BB970F500D84BEE /* Forget-Me-NotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forget-Me-NotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80440F111BB970F500D84BEE /* Forget_Me_NotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Me_NotTests.swift; sourceTree = "<group>"; };
+		80440F131BB970F500D84BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80440F181BB970F500D84BEE /* Forget-Me-NotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forget-Me-NotUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80440F1C1BB970F500D84BEE /* Forget_Me_NotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forget_Me_NotUITests.swift; sourceTree = "<group>"; };
+		80440F1E1BB970F500D84BEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80440F2A1BB9725600D84BEE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		80440F2F1BB9E19100D84BEE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		809348DE1BD19E79000462F6 /* SetInRadiusReminderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetInRadiusReminderViewController.swift; sourceTree = "<group>"; };
+		809348E21BD1BE0A000462F6 /* RemindersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemindersTableViewController.swift; sourceTree = "<group>"; };
+		809349261BD48E5D000462F6 /* ReminderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReminderTableViewCell.swift; sourceTree = "<group>"; };
+		809349271BD48E5D000462F6 /* ReminderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderTableViewCell.xib; sourceTree = "<group>"; };
+		8093492A1BD49415000462F6 /* FMNReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMNReminder.swift; sourceTree = "<group>"; };
+		8093492E1BD4AA35000462F6 /* NoRemindersView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoRemindersView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80440EF61BB970F500D84BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80440F301BB9E19100D84BEE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F0A1BB970F500D84BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F151BB970F500D84BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80440EF01BB970F500D84BEE = {
+			isa = PBXGroup;
+			children = (
+				80440F2F1BB9E19100D84BEE /* MapKit.framework */,
+				80440EFB1BB970F500D84BEE /* Forget-Me-Not */,
+				80440F101BB970F500D84BEE /* Forget-Me-NotTests */,
+				80440F1B1BB970F500D84BEE /* Forget-Me-NotUITests */,
+				80440EFA1BB970F500D84BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80440EFA1BB970F500D84BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80440EF91BB970F500D84BEE /* Forget-Me-Not.app */,
+				80440F0D1BB970F500D84BEE /* Forget-Me-NotTests.xctest */,
+				80440F181BB970F500D84BEE /* Forget-Me-NotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80440EFB1BB970F500D84BEE /* Forget-Me-Not */ = {
+			isa = PBXGroup;
+			children = (
+				80440F2C1BB975AD00D84BEE /* Model */,
+				80440F2D1BB975B600D84BEE /* View */,
+				80440F2E1BB975BB00D84BEE /* Controller */,
+				80440EFC1BB970F500D84BEE /* AppDelegate.swift */,
+				80440F001BB970F500D84BEE /* Main.storyboard */,
+				80440F031BB970F500D84BEE /* Assets.xcassets */,
+				80440F051BB970F500D84BEE /* LaunchScreen.storyboard */,
+				80440F081BB970F500D84BEE /* Info.plist */,
+			);
+			path = "Forget-Me-Not";
+			sourceTree = "<group>";
+		};
+		80440F101BB970F500D84BEE /* Forget-Me-NotTests */ = {
+			isa = PBXGroup;
+			children = (
+				80440F111BB970F500D84BEE /* Forget_Me_NotTests.swift */,
+				80440F131BB970F500D84BEE /* Info.plist */,
+			);
+			path = "Forget-Me-NotTests";
+			sourceTree = "<group>";
+		};
+		80440F1B1BB970F500D84BEE /* Forget-Me-NotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80440F1C1BB970F500D84BEE /* Forget_Me_NotUITests.swift */,
+				80440F1E1BB970F500D84BEE /* Info.plist */,
+			);
+			path = "Forget-Me-NotUITests";
+			sourceTree = "<group>";
+		};
+		80440F2C1BB975AD00D84BEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8093492A1BD49415000462F6 /* FMNReminder.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		80440F2D1BB975B600D84BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				809349261BD48E5D000462F6 /* ReminderTableViewCell.swift */,
+				809349271BD48E5D000462F6 /* ReminderTableViewCell.xib */,
+				8093492E1BD4AA35000462F6 /* NoRemindersView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		80440F2E1BB975BB00D84BEE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80440F2A1BB9725600D84BEE /* MapViewController.swift */,
+				809348DE1BD19E79000462F6 /* SetInRadiusReminderViewController.swift */,
+				809348E21BD1BE0A000462F6 /* RemindersTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80440EF81BB970F500D84BEE /* Forget-Me-Not */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80440F211BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */;
+			buildPhases = (
+				80440EF51BB970F500D84BEE /* Sources */,
+				80440EF61BB970F500D84BEE /* Frameworks */,
+				80440EF71BB970F500D84BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forget-Me-Not";
+			productName = "Forget-Me-Not";
+			productReference = 80440EF91BB970F500D84BEE /* Forget-Me-Not.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80440F0C1BB970F500D84BEE /* Forget-Me-NotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80440F241BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-NotTests" */;
+			buildPhases = (
+				80440F091BB970F500D84BEE /* Sources */,
+				80440F0A1BB970F500D84BEE /* Frameworks */,
+				80440F0B1BB970F500D84BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80440F0F1BB970F500D84BEE /* PBXTargetDependency */,
+			);
+			name = "Forget-Me-NotTests";
+			productName = "Forget-Me-NotTests";
+			productReference = 80440F0D1BB970F500D84BEE /* Forget-Me-NotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80440F171BB970F500D84BEE /* Forget-Me-NotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80440F271BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */;
+			buildPhases = (
+				80440F141BB970F500D84BEE /* Sources */,
+				80440F151BB970F500D84BEE /* Frameworks */,
+				80440F161BB970F500D84BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80440F1A1BB970F500D84BEE /* PBXTargetDependency */,
+			);
+			name = "Forget-Me-NotUITests";
+			productName = "Forget-Me-NotUITests";
+			productReference = 80440F181BB970F500D84BEE /* Forget-Me-NotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80440EF11BB970F500D84BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Lukas Carvajal";
+				TargetAttributes = {
+					80440EF81BB970F500D84BEE = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					80440F0C1BB970F500D84BEE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 80440EF81BB970F500D84BEE;
+					};
+					80440F171BB970F500D84BEE = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 80440EF81BB970F500D84BEE;
+					};
+				};
+			};
+			buildConfigurationList = 80440EF41BB970F500D84BEE /* Build configuration list for PBXProject "Forget-Me-Not" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80440EF01BB970F500D84BEE;
+			productRefGroup = 80440EFA1BB970F500D84BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80440EF81BB970F500D84BEE /* Forget-Me-Not */,
+				80440F0C1BB970F500D84BEE /* Forget-Me-NotTests */,
+				80440F171BB970F500D84BEE /* Forget-Me-NotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80440EF71BB970F500D84BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8093492F1BD4AA35000462F6 /* NoRemindersView.xib in Resources */,
+				80440F071BB970F500D84BEE /* LaunchScreen.storyboard in Resources */,
+				80440F041BB970F500D84BEE /* Assets.xcassets in Resources */,
+				80440F021BB970F500D84BEE /* Main.storyboard in Resources */,
+				809349291BD48E5D000462F6 /* ReminderTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F0B1BB970F500D84BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F161BB970F500D84BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80440EF51BB970F500D84BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80440F2B1BB9725600D84BEE /* MapViewController.swift in Sources */,
+				809348DF1BD19E79000462F6 /* SetInRadiusReminderViewController.swift in Sources */,
+				80440EFD1BB970F500D84BEE /* AppDelegate.swift in Sources */,
+				809348E31BD1BE0A000462F6 /* RemindersTableViewController.swift in Sources */,
+				809349281BD48E5D000462F6 /* ReminderTableViewCell.swift in Sources */,
+				8093492B1BD49415000462F6 /* FMNReminder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F091BB970F500D84BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80440F121BB970F500D84BEE /* Forget_Me_NotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80440F141BB970F500D84BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80440F1D1BB970F500D84BEE /* Forget_Me_NotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80440F0F1BB970F500D84BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80440EF81BB970F500D84BEE /* Forget-Me-Not */;
+			targetProxy = 80440F0E1BB970F500D84BEE /* PBXContainerItemProxy */;
+		};
+		80440F1A1BB970F500D84BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80440EF81BB970F500D84BEE /* Forget-Me-Not */;
+			targetProxy = 80440F191BB970F500D84BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80440F001BB970F500D84BEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80440F011BB970F500D84BEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80440F051BB970F500D84BEE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80440F061BB970F500D84BEE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80440F1F1BB970F500D84BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80440F201BB970F500D84BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80440F221BB970F500D84BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-Not";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80440F231BB970F500D84BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Forget-Me-Not/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-Not";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80440F251BB970F500D84BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Forget-Me-NotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-NotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forget-Me-Not.app/Forget-Me-Not";
+			};
+			name = Debug;
+		};
+		80440F261BB970F500D84BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Forget-Me-NotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-NotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forget-Me-Not.app/Forget-Me-Not";
+			};
+			name = Release;
+		};
+		80440F281BB970F500D84BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-NotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Forget-Me-Not";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		80440F291BB970F500D84BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Forget-Me-NotUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "appsByLukas.com.Forget-Me-NotUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Forget-Me-Not";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80440EF41BB970F500D84BEE /* Build configuration list for PBXProject "Forget-Me-Not" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80440F1F1BB970F500D84BEE /* Debug */,
+				80440F201BB970F500D84BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80440F211BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-Not" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80440F221BB970F500D84BEE /* Debug */,
+				80440F231BB970F500D84BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80440F241BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-NotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80440F251BB970F500D84BEE /* Debug */,
+				80440F261BB970F500D84BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80440F271BB970F500D84BEE /* Build configuration list for PBXNativeTarget "Forget-Me-NotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80440F281BB970F500D84BEE /* Debug */,
+				80440F291BB970F500D84BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80440EF11BB970F500D84BEE /* Project object */;
+}
