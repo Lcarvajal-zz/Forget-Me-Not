@@ -4,7 +4,6 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -29,65 +28,36 @@
                                     <outletCollection property="gestureRecognizers" destination="Bnq-jL-aqE" appends="YES" id="4gB-9i-Nfb"/>
                                 </connections>
                             </mapView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nHs-n0-Pj4">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="45" id="LGe-SW-Bgf"/>
-                                    <constraint firstAttribute="width" secondItem="nHs-n0-Pj4" secondAttribute="height" multiplier="1:1" id="SRC-As-lPK"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="LGe-SW-Bgf"/>
-                                        <exclude reference="SRC-As-lPK"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <include reference="LGe-SW-Bgf"/>
-                                        <include reference="SRC-As-lPK"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="lwk-mX-PpA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="HBt-jz-qFj"/>
                             <constraint firstItem="lwk-mX-PpA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="W87-pd-eL7"/>
-                            <constraint firstAttribute="trailing" secondItem="nHs-n0-Pj4" secondAttribute="trailing" constant="8" id="bdv-MH-sVV"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lwk-mX-PpA" secondAttribute="bottom" id="qLp-GU-XNx">
                                 <variation key="heightClass=regular" constant="-44"/>
                             </constraint>
-                            <constraint firstItem="nHs-n0-Pj4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="vOF-UQ-70N"/>
                             <constraint firstAttribute="trailing" secondItem="lwk-mX-PpA" secondAttribute="trailing" id="weK-R9-dj4"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="lwk-mX-PpA"/>
-                                <exclude reference="nHs-n0-Pj4"/>
                             </mask>
                             <mask key="constraints">
                                 <exclude reference="HBt-jz-qFj"/>
                                 <exclude reference="W87-pd-eL7"/>
                                 <exclude reference="weK-R9-dj4"/>
-                                <exclude reference="bdv-MH-sVV"/>
-                                <exclude reference="vOF-UQ-70N"/>
                                 <exclude reference="qLp-GU-XNx"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular">
                             <mask key="subviews">
                                 <include reference="lwk-mX-PpA"/>
-                                <include reference="nHs-n0-Pj4"/>
                             </mask>
                             <mask key="constraints">
                                 <include reference="HBt-jz-qFj"/>
                                 <include reference="W87-pd-eL7"/>
                                 <include reference="weK-R9-dj4"/>
-                                <include reference="bdv-MH-sVV"/>
-                                <include reference="vOF-UQ-70N"/>
                                 <include reference="qLp-GU-XNx"/>
                             </mask>
                         </variation>
@@ -184,7 +154,7 @@
                                                 </constraints>
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="24"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="S9b-cY-UKD"/>
